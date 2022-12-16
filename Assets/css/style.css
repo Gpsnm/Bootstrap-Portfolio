@@ -1,0 +1,28 @@
+:root{
+    --main-font:'Josefin Sans', sans-serif;
+    --main-font-color:#000
+}
+
+/* nav custom styles */
+.navbar{
+    background-color:#FAF3DD;
+}
+ .navbar-nav{
+    margin-left:auto !important;
+    margin-right: 0 !important;
+    padding: 25px;
+ }
+
+ .nav-link{
+    font-size:28px;
+    font-family:var(--main-font);
+    color: var(--main-font);
+    
+ }
+
+
+ /* hero section */
+ .hero-section{
+    display: flex;
+    align-items: center;
+ }
