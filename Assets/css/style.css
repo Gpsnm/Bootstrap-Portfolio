@@ -1,6 +1,7 @@
 :root{
     --main-font:'Josefin Sans', sans-serif;
-    --main-font-color:#000
+    --main-font-color:#000;
+    --main-background:#FAF3DD;
 }
 
 /* nav custom styles */
@@ -16,13 +17,49 @@
  .nav-link{
     font-size:28px;
     font-family:var(--main-font);
-    color: var(--main-font);
-    
- }
+    color: #000 !important;
+}
 
+.nav-link:hover{
+    text-decoration: underline;
+    color:#618985 !important;
+    font-size: 38px;
+}
 
- /* hero section */
- .hero-section{
-    display: flex;
-    align-items: center;
- }
+/* hero section */
+span{
+    display: block;
+}
+.profile-picture{
+    max-height: 600px;
+    width: 500px;
+    border-radius: 70%;
+}
+.jumbotron{
+    background-color: var(--main-background);
+    min-height: 2000px;
+    border: solid 5px blue;
+}
+.profile-pic-positioning{
+    display: inline;
+    background-color: var(--main-background);
+    float: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    border: solid 5px black;
+
+}
+.hero-container{
+padding-left:100px;
+padding-top: 50px;
+border:solid 5px red;
+}
+
+h1{
+    font-size: 48px;
+    padding-bottom: 50px;
+}
+
+p{
+    font-size: 28px;
+}
