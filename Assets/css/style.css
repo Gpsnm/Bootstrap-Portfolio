@@ -1,54 +1,85 @@
-:root{
-    --main-font:'Josefin Sans', sans-serif;
-    --main-font-color:#000;
-    --main-background:#FAF3DD;
+:root {
+  --main-font: "Josefin Sans", sans-serif;
+  --main-font-color: #000;
+  --main-background: #faf3dd;
 }
-
+* {
+  font-family: var(--main-font);
+}
 /* nav custom styles */
-.navbar{
-    background-color:#FAF3DD;
-}
- .navbar-nav{
-    margin-left:auto !important;
-    margin-right: 0 !important;
-    padding: 25px;
- }
-
- .nav-link{
-    font-size:28px;
-    font-family:var(--main-font);
-    color: #000 !important;
+.navbar {
+  background-color:var(--main-background);
 }
 
-.nav-link:hover{
-    text-decoration: underline;
-    color:#618985 !important;
-    font-size: 38px;
+.navbar-nav {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  padding: 25px;
+}
+
+.nav-link {
+  font-size: 28px;
+  font-family: var(--main-font);
+  color: #000 !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #618985 !important;
+  font-size: 38px;
 }
 
 /* hero section */
-span{
-    display: block;
-}
-.profile-picture{
-    max-height: 600px;
-    border-radius: 70%;
-    float:right;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.jumbotron{
-    background-color: var(--main-background);
-}
-.hero-container{
-    display:inline-block;
-    padding: 25px;
-}
-h1{
-    font-size: 52px;
-    padding-bottom: 50px;
+span {
+  display: block;
 }
 
-p{
-    font-size: 28px;
+.profile-picture {
+  max-height: 600px;
+  border-radius: 70%;
+  float: right;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.jumbotron{
+  background-color: var(--main-background);
+}
+.hero-container {
+  display: inline-block;
+  padding: 25px;
+}
+
+.hero-section{
+  background-color:var(--main-background);
+}
+h1 {
+  font-size: 52px;
+  padding-bottom: 50px;
+}
+
+p {
+  font-size: 28px;
+  padding-top: 25px;
+}
+
+/* my projects section */
+.project-container {
+  background-color: #618985;
+}
+.card{
+  max-height: 800px;
+  border: solid 3px #fff;
+  margin: 2px;
+}
+
+.card img {
+  width:100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
+h2{
+  font-size: 32px;
 }
