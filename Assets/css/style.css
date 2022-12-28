@@ -45,6 +45,7 @@ span {
 
 .jumbotron{
   background-color: var(--main-background) !important;
+  margin-bottom: 0;
 }
 .hero-container {
   display: inline-block;
@@ -67,14 +68,16 @@ p {
 
 /* my projects section */
 h2{
-  padding-top: 25px;
+  padding: 25px 0px 30px;
+  font-size: 42px;
 }
 .project-container {
   background-color: #618985;
-}
+} 
 .card{
-  padding: 25px;
   max-height: auto;
+  border: none;
+
 }
 
 .card img {
@@ -90,5 +93,18 @@ h2{
 
 /* footer section */
 footer{
-  background-color: #000;
+  background-color:var(--main-background);
+  height: 100px;
+  padding-top: 25px;
+}
+.footer-img{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  
+
+}
+footer h2 {
+  display: inline;
+  padding-right: 25px;
 }
