@@ -73,14 +73,13 @@ h2{
   background-color: #618985;
 }
 .card{
-  max-height: 800px;
-  border: solid 3px #fff;
-border: solid 5px black;
+  padding: 25px;
+  max-height: auto;
 }
 
 .card img {
   width:100%;
-  max-height: 500px;
+  max-height: 600px;
   object-fit: cover;
   object-position: top;
 }
