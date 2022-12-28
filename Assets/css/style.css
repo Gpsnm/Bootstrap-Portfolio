@@ -5,6 +5,7 @@
 }
 * {
   font-family: var(--main-font);
+  scroll-behavior: smooth;
 }
 /* nav custom styles */
 .navbar {
@@ -43,15 +44,16 @@ span {
 }
 
 .jumbotron{
-  background-color: var(--main-background);
+  background-color: var(--main-background) !important;
 }
 .hero-container {
   display: inline-block;
   padding: 25px;
+  background-color: var(--main-background) !important;
 }
 
 .hero-section{
-  background-color:var(--main-background);
+  background-color:var(--main-background) !important;
 }
 h1 {
   font-size: 52px;
@@ -64,13 +66,16 @@ p {
 }
 
 /* my projects section */
+h2{
+  padding-top: 25px;
+}
 .project-container {
   background-color: #618985;
 }
 .card{
   max-height: 800px;
   border: solid 3px #fff;
-  margin: 2px;
+border: solid 5px black;
 }
 
 .card img {
@@ -82,4 +87,9 @@ p {
 
 h2{
   font-size: 32px;
+}
+
+/* footer section */
+footer{
+  background-color: #000;
 }
