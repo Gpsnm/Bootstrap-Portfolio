@@ -76,13 +76,18 @@ h2{
 } 
 .card{
   max-height: auto;
+  /* background-color: #618985; */
   border: none;
-
+  padding: 0;
 }
 
+.card-body{
+  background-color: #618985;
+}
 .card img {
   width:100%;
   max-height: 600px;
+  border: solid 2px #fff;
   object-fit: cover;
   object-position: top;
 }
