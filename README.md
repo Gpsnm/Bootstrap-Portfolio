@@ -8,7 +8,7 @@ In this Bootcamp challenge, we were tasked with creating our original portfolio 
 Project is created with HTML , CSS and Bootstrap
 
 ## Image of web page
-<img src="./Assets/images/gpsnm.github.io_My-Portfolio_ (1).png" alt="">
+<img src="./Assets/images/gpsnm.github.io_bootstrap-Portfolio_.png" alt="">
 
 
 
