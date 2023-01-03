@@ -88,7 +88,7 @@ h2{
 }
 .card img {
   max-width:100%;
-  height: auto;
+  height: 500px;
   border: solid 2px #fff;
   object-fit: cover;
   object-position: top;
@@ -99,7 +99,7 @@ h2{
 }
 
 h2{
-  font-size: 32px;
+  font-size: 38px;
 }
 
 /* footer section */
